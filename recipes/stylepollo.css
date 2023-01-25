@@ -1,0 +1,61 @@
+/* styles.css */
+* {
+    padding: 0;
+    margin: 0;
+    }
+
+body{
+    background-color: rgb(255, 249, 172);
+}
+.title {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    background-color: rgb(185, 208, 255);
+    padding: 10px;
+    border: 20px solid rgb(255, 249, 172);
+    margin: 10px;
+}
+#contenido {
+    height: fit-content;
+}
+
+#columna1 {
+    right: 1%;
+    /*position:absolute;*/
+    display: inline-block;
+    padding-right: 3%;
+    margin: 10px;
+    height: auto;
+}
+
+#columna2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    left: 1%; 
+    background-color: rgb(255, 99, 99);
+    /*position:absolute;*/
+    display: inline-block;
+    padding: 100px;
+    padding-top: 20px;
+    margin: 10px;
+    font-size: 34px;
+    height: auto;
+    width: 15%;
+
+}
+
+.subtitle {
+    padding: 5%;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    margin-top: -50px;
+    height: 40px;
+    clear: both;
+    text-align: center;
+    padding: 5px 0px;
+}
+
